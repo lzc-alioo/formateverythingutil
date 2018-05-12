@@ -37,15 +37,15 @@ public class FormatTest {
             }
         });
 
-        ReadWriteLock lock = new ReentrantReadWriteLock();
-        Lock lock1=lock.readLock();
+//        ReadWriteLock lock = new ReentrantReadWriteLock();
+//        Lock lock1=lock.readLock();
 
 
 
         System.out.println("aaa");
-        Thread.sleep(1000);
+//        Thread.sleep(1000);
         System.out.println("bbb");
-        lock1.unlock();
+//        lock1.unlock();
     }
 
 }
